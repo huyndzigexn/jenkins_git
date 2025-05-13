@@ -1,0 +1,25 @@
+current directory: /Users/huynd/Desktop/learn/jenkins/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+/Users/huynd/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/huynd/Desktop/learn/jenkins/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250512-36598-35nxva sitelibdir\=./.gem.20250512-36598-35nxva clean
+
+current directory: /Users/huynd/Desktop/learn/jenkins/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250512-36598-35nxva sitelibdir\=./.gem.20250512-36598-35nxva
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/huynd/Desktop/learn/jenkins/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250512-36598-35nxva sitelibdir\=./.gem.20250512-36598-35nxva install
+/opt/homebrew/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20250512-36598-35nxva
+
+current directory: /Users/huynd/Desktop/learn/jenkins/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250512-36598-35nxva sitelibdir\=./.gem.20250512-36598-35nxva clean

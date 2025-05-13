@@ -1,0 +1,18 @@
+2025-05-12_07:33:23.25160 <jemalloc>: MADV_DONTNEED does not work (memset will be used instead)
+2025-05-12_07:33:23.25489 <jemalloc>: (This is the expected behaviour if you are running under QEMU)
+2025-05-12_07:33:32.01509 {"timestamp":"2025-05-12T07:33:31.973Z","pid":4102,"message":"Puma starting in cluster mode..."}
+2025-05-12_07:33:32.01929 {"timestamp":"2025-05-12T07:33:32.014Z","pid":4102,"message":"* Puma version: 6.5.0 (\"Sky's Version\")"}
+2025-05-12_07:33:32.01964 {"timestamp":"2025-05-12T07:33:32.015Z","pid":4102,"message":"* Ruby version: ruby 3.2.5 (2024-07-26 revision 31d0f1a2e7) [x86_64-linux]"}
+2025-05-12_07:33:32.02008 {"timestamp":"2025-05-12T07:33:32.015Z","pid":4102,"message":"*  Min threads: 4"}
+2025-05-12_07:33:32.02040 {"timestamp":"2025-05-12T07:33:32.015Z","pid":4102,"message":"*  Max threads: 4"}
+2025-05-12_07:33:32.02067 {"timestamp":"2025-05-12T07:33:32.015Z","pid":4102,"message":"*  Environment: production"}
+2025-05-12_07:33:32.02096 {"timestamp":"2025-05-12T07:33:32.015Z","pid":4102,"message":"*   Master PID: 4102"}
+2025-05-12_07:33:32.02123 {"timestamp":"2025-05-12T07:33:32.016Z","pid":4102,"message":"*      Workers: 4"}
+2025-05-12_07:33:32.02147 {"timestamp":"2025-05-12T07:33:32.016Z","pid":4102,"message":"*     Restarts: (✔) hot (✖) phased"}
+2025-05-12_07:33:32.02169 {"timestamp":"2025-05-12T07:33:32.016Z","pid":4102,"message":"* Preloading application"}
+2025-05-12_07:40:08.28238 {"timestamp":"2025-05-12T07:40:08.280Z","pid":4102,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2025-05-12_07:40:08.28685 {"timestamp":"2025-05-12T07:40:08.286Z","pid":4102,"message":"* Listening on http://127.0.0.1:8080"}
+2025-05-12_07:40:08.28800 {"timestamp":"2025-05-12T07:40:08.287Z","pid":4102,"message":"! WARNING: Detected 2 Thread(s) started in app boot:"}
+2025-05-12_07:40:08.28926 {"timestamp":"2025-05-12T07:40:08.288Z","pid":4102,"message":"! #\u003cThread:0x0000004050587f10 /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-timeout-0.7.0/lib/rack/timeout/support/scheduler.rb:72 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/rack-timeout-0.7.0/lib/rack/timeout/support/scheduler.rb:90:in `sleep'"}
+2025-05-12_07:40:08.29042 {"timestamp":"2025-05-12T07:40:08.289Z","pid":4102,"message":"! #\u003cThread:0x000000404fc2db68 /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/sentry-ruby-5.22.1/lib/sentry/threaded_periodic_worker.rb:18 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.2.0/gems/sentry-ruby-5.22.1/lib/sentry/threaded_periodic_worker.rb:20:in `sleep'"}
+2025-05-12_07:40:08.29262 {"timestamp":"2025-05-12T07:40:08.291Z","pid":4102,"message":"Use Ctrl-C to stop"}
